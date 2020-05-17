@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api using Vanilla</title>
+
+    <!-- my css -->
+    <!--*Links*-->
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    
+    <div class="location">
+        <h1 class="location-timezone">TimeZone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperatureSection">
+        <div class="degree-section">
+            <h2 class="temp-degree">34</h2><h1>&deg;</h1>
+            <span>F</span>
+        </div>
+        <div class="latLong">
+           <label>Your Lat Long =  </label><br>
+            <span id="long">LATITUDE</span>
+            <span>||</span>
+            <span id="lat">LONGITUDE</span>
+        </div>
+        <div class="temp-description">Its Too hot</div>
+    </div>
+
+    <!--*Scripts*-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/skycons.js"></script>
+
+</body>
+
+</html>
