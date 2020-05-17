@@ -53,4 +53,10 @@ body{
     #long, #lat {
             font-size: 15px;
     }
+    .degree-section{
+        color: black;
+        &:hover{
+        color: black;
+    }
+    }
 }
